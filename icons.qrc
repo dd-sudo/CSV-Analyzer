@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>images/analyzing_icon.ico</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>images/timer.png</file>
+        <file>images/analyzing.png</file>
+        <file>images/folder.png</file>
+        <file>images/line-graph.png</file>
+        <file>images/plotxy.png</file>
+        <file>images/ploty.png</file>
+        <file>images/zoomin.png</file>
+        <file>images/zoomout.png</file>
+        <file>images/zoomreset.png</file>
+        <file>images/function.png</file>
+        <file>images/save.png</file>
+        <file>images/timer-opaque.png</file>
+        <file>images/map.png</file>
+        <file>images/gasoline-pump.png</file>
+        <file>images/trim.png</file>
+        <file>images/speed.png</file>
+        <file>images/rpm.png</file>
+        <file>images/height.png</file>
+        <file>images/mountain.png</file>
+    </qresource>
+</RCC>
