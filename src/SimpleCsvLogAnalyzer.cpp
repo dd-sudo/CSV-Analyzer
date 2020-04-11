@@ -2,13 +2,15 @@
 #include "ui_SimpleCsvLogAnalyzer.h"
 
 #include <QThread>
-
+//handle log files that have labels between data lines
 SimpleCsvLogAnalyzer::SimpleCsvLogAnalyzer(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::SimpleCsvLogAnalyzer)
 {
     ui->setupUi(this);
-
+    qApp->processEvents();
+    getAndroidPermission("android.permission.WRITE_EXTERNAL_STORAGE");
+    getAndroidPermission("android.permission.READ_EXTERNAL_STORAGE");
     // setup some shortcuts
     moveRight = new QShortcut(this);
     moveRight->setKey(Qt::Key_Right);

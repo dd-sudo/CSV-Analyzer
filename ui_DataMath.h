@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'DataMath.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.14.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -135,14 +135,14 @@ public:
 
     void retranslateUi(QDialog *DataMath)
     {
-        DataMath->setWindowTitle(QApplication::translate("DataMath", "Create new derived data (Data Math)", nullptr));
-        label_2->setText(QApplication::translate("DataMath", "Math operations are evaluated left to right.", nullptr));
-        label->setText(QApplication::translate("DataMath", "Data Math:", nullptr));
-#ifndef QT_NO_TOOLTIP
-        dataMath->setToolTip(QApplication::translate("DataMath", "A derived data element is a data element derived from other data elements using a mathematical, logical, or other type of transformation, e.g. arithmetic formula, composition, aggregation.", nullptr));
-#endif // QT_NO_TOOLTIP
+        DataMath->setWindowTitle(QCoreApplication::translate("DataMath", "Create new derived data (Data Math)", nullptr));
+        label_2->setText(QCoreApplication::translate("DataMath", "Math operations are evaluated left to right.", nullptr));
+        label->setText(QCoreApplication::translate("DataMath", "Data Math:", nullptr));
+#if QT_CONFIG(tooltip)
+        dataMath->setToolTip(QCoreApplication::translate("DataMath", "A derived data element is a data element derived from other data elements using a mathematical, logical, or other type of transformation, e.g. arithmetic formula, composition, aggregation.", nullptr));
+#endif // QT_CONFIG(tooltip)
         dataMath->setInputMask(QString());
-        clear->setText(QApplication::translate("DataMath", "Undo", nullptr));
+        clear->setText(QCoreApplication::translate("DataMath", "Undo", nullptr));
     } // retranslateUi
 
 };

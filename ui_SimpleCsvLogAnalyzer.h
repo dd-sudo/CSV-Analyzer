@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'SimpleCsvLogAnalyzer.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.14.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -638,53 +638,53 @@ public:
 
     void retranslateUi(QMainWindow *SimpleCsvLogAnalyzer)
     {
-        SimpleCsvLogAnalyzer->setWindowTitle(QApplication::translate("SimpleCsvLogAnalyzer", "SimpleCsvLogAnalyzer", nullptr));
-        actionOpen->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Open File", nullptr));
-        actionExit->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Exit", nullptr));
-#ifndef QT_NO_SHORTCUT
-        actionExit->setShortcut(QApplication::translate("SimpleCsvLogAnalyzer", "Ctrl+Q", nullptr));
-#endif // QT_NO_SHORTCUT
-        actionZoom_Reset->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Zoom Reset", nullptr));
-#ifndef QT_NO_SHORTCUT
-        actionZoom_Reset->setShortcut(QApplication::translate("SimpleCsvLogAnalyzer", "0", nullptr));
-#endif // QT_NO_SHORTCUT
-        actionSave_Plot_Image->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Save Plot", nullptr));
-#ifndef QT_NO_SHORTCUT
-        actionSave_Plot_Image->setShortcut(QApplication::translate("SimpleCsvLogAnalyzer", "S", nullptr));
-#endif // QT_NO_SHORTCUT
-        actionData_Derivator->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Data Derivator", nullptr));
-        actionPlot_SelectedData->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Plot Y", nullptr));
-        actionplot_SelectedDataVsSelectedData->setText(QApplication::translate("SimpleCsvLogAnalyzer", "plot Y-X", nullptr));
-        actionZoom_In->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Zoom In", nullptr));
-        actionZoom_Out->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Zoom Out", nullptr));
-        minValueY->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Min Y: nan", nullptr));
-        maxValueY->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Max Y: nan", nullptr));
-        averageValueY->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Average Y: nan", nullptr));
-        spanValueY->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Span Y: nan", nullptr));
-        totalDataLength->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Data Length: nan", nullptr));
-        minValueX->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Min X: nan", nullptr));
-        maxValueX->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Max X: nan", nullptr));
-        averageValueX->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Average X: nan", nullptr));
-        spanValueX->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Span X: nan", nullptr));
-        rightTabs->setTabText(rightTabs->indexOf(plotTab), QApplication::translate("SimpleCsvLogAnalyzer", "Plot", nullptr));
-        label_2->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Y Axis Data List", nullptr));
-        label_3->setText(QApplication::translate("SimpleCsvLogAnalyzer", "X Axis Data List", nullptr));
-        plotSelected->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Plot Selected Data vs Index", nullptr));
-        plotSelectedXY->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Plot Selected Y-X Data", nullptr));
-        DataDerivator->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Data Derivator", nullptr));
-        rightTabs->setTabText(rightTabs->indexOf(dataTableViewTab), QApplication::translate("SimpleCsvLogAnalyzer", "Data Labels", nullptr));
-        predefinedPlot1->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Speed (OBD) vs Time", nullptr));
-        predefinedPlot2->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Speed (GPS) vs Time", nullptr));
-        predefinedPlot9->setText(QApplication::translate("SimpleCsvLogAnalyzer", "RPM vs Time", nullptr));
-        predefinedPlot5->setText(QApplication::translate("SimpleCsvLogAnalyzer", "LTFT1 vs Time", nullptr));
-        predefinedPlot7->setText(QApplication::translate("SimpleCsvLogAnalyzer", "STFT1 vs Time", nullptr));
-        predefinedPlot6->setText(QApplication::translate("SimpleCsvLogAnalyzer", "LTFT1+STFT1 vs RPM", nullptr));
-        predefinedPlot3->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Altitude vs Time", nullptr));
-        predefinedPlot4->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Avg. Consumption vs Time", nullptr));
-        predefinedPlot8->setText(QApplication::translate("SimpleCsvLogAnalyzer", "Speed (OBD) / RPM vs Time", nullptr));
-        predefinedPlot10->setText(QApplication::translate("SimpleCsvLogAnalyzer", "LTFT1+STFT1 vs Time", nullptr));
-        rightTabs->setTabText(rightTabs->indexOf(quickPlotPresets), QApplication::translate("SimpleCsvLogAnalyzer", "Quick Plots", nullptr));
-        toolBar->setWindowTitle(QApplication::translate("SimpleCsvLogAnalyzer", "toolBar", nullptr));
+        SimpleCsvLogAnalyzer->setWindowTitle(QCoreApplication::translate("SimpleCsvLogAnalyzer", "SimpleCsvLogAnalyzer", nullptr));
+        actionOpen->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Open File", nullptr));
+        actionExit->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Exit", nullptr));
+#if QT_CONFIG(shortcut)
+        actionExit->setShortcut(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Ctrl+Q", nullptr));
+#endif // QT_CONFIG(shortcut)
+        actionZoom_Reset->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Zoom Reset", nullptr));
+#if QT_CONFIG(shortcut)
+        actionZoom_Reset->setShortcut(QCoreApplication::translate("SimpleCsvLogAnalyzer", "0", nullptr));
+#endif // QT_CONFIG(shortcut)
+        actionSave_Plot_Image->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Save Plot", nullptr));
+#if QT_CONFIG(shortcut)
+        actionSave_Plot_Image->setShortcut(QCoreApplication::translate("SimpleCsvLogAnalyzer", "S", nullptr));
+#endif // QT_CONFIG(shortcut)
+        actionData_Derivator->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Data Derivator", nullptr));
+        actionPlot_SelectedData->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Plot Y", nullptr));
+        actionplot_SelectedDataVsSelectedData->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "plot Y-X", nullptr));
+        actionZoom_In->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Zoom In", nullptr));
+        actionZoom_Out->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Zoom Out", nullptr));
+        minValueY->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Min Y: nan", nullptr));
+        maxValueY->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Max Y: nan", nullptr));
+        averageValueY->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Average Y: nan", nullptr));
+        spanValueY->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Span Y: nan", nullptr));
+        totalDataLength->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Data Length: nan", nullptr));
+        minValueX->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Min X: nan", nullptr));
+        maxValueX->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Max X: nan", nullptr));
+        averageValueX->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Average X: nan", nullptr));
+        spanValueX->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Span X: nan", nullptr));
+        rightTabs->setTabText(rightTabs->indexOf(plotTab), QCoreApplication::translate("SimpleCsvLogAnalyzer", "Plot", nullptr));
+        label_2->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Y Axis Data List", nullptr));
+        label_3->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "X Axis Data List", nullptr));
+        plotSelected->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Plot Selected Data vs Index", nullptr));
+        plotSelectedXY->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Plot Selected Y-X Data", nullptr));
+        DataDerivator->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Data Derivator", nullptr));
+        rightTabs->setTabText(rightTabs->indexOf(dataTableViewTab), QCoreApplication::translate("SimpleCsvLogAnalyzer", "Data Labels", nullptr));
+        predefinedPlot1->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Speed (OBD) vs Time", nullptr));
+        predefinedPlot2->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Speed (GPS) vs Time", nullptr));
+        predefinedPlot9->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "RPM vs Time", nullptr));
+        predefinedPlot5->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "LTFT1 vs Time", nullptr));
+        predefinedPlot7->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "STFT1 vs Time", nullptr));
+        predefinedPlot6->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "LTFT1+STFT1 vs RPM", nullptr));
+        predefinedPlot3->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Altitude vs Time", nullptr));
+        predefinedPlot4->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Avg. Consumption vs Time", nullptr));
+        predefinedPlot8->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "Speed (OBD) / RPM vs Time", nullptr));
+        predefinedPlot10->setText(QCoreApplication::translate("SimpleCsvLogAnalyzer", "LTFT1+STFT1 vs Time", nullptr));
+        rightTabs->setTabText(rightTabs->indexOf(quickPlotPresets), QCoreApplication::translate("SimpleCsvLogAnalyzer", "Quick Plots", nullptr));
+        toolBar->setWindowTitle(QCoreApplication::translate("SimpleCsvLogAnalyzer", "toolBar", nullptr));
     } // retranslateUi
 
 };

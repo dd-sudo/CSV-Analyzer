@@ -1,6 +1,8 @@
+
 QT       += core gui printsupport opengl
-#QT += androidextras
+android: QT += androidextras
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
 
 CONFIG += c++11
 

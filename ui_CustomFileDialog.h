@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'CustomFileDialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.14.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -100,9 +100,9 @@ public:
 
     void retranslateUi(QDialog *CustomFileDialog)
     {
-        CustomFileDialog->setWindowTitle(QApplication::translate("CustomFileDialog", "Dialog", nullptr));
-        cancelBtn->setText(QApplication::translate("CustomFileDialog", "Cancel", nullptr));
-        okBtn->setText(QApplication::translate("CustomFileDialog", "Open", nullptr));
+        CustomFileDialog->setWindowTitle(QCoreApplication::translate("CustomFileDialog", "Dialog", nullptr));
+        cancelBtn->setText(QCoreApplication::translate("CustomFileDialog", "Cancel", nullptr));
+        okBtn->setText(QCoreApplication::translate("CustomFileDialog", "Open", nullptr));
     } // retranslateUi
 
 };

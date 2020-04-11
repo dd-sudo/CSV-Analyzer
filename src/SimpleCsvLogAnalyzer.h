@@ -13,11 +13,13 @@
 #include "CsvFileProcessor.h"
 #include "DataMath.h"
 #include "CustomFileDialog.h"
+#include <limits>
 
 #ifdef Q_OS_ANDROID
+#include <QtAndroid>
 #endif
 
-#include <limits>
+
 
 enum{
     PLOT_NONE,
@@ -169,6 +171,35 @@ private:
         QMessageBox msgBox;
         msgBox.setText(test);
         msgBox.exec();
+    }
+
+    enum {
+        permissionDenied,
+        alreadyGranted,
+        granted
+    };
+
+    static int getAndroidPermission(QString permissionName){
+#if defined (Q_OS_ANDROID)
+        int ret = permissionDenied;
+        //Request requiered permissions at runtime
+        auto result = QtAndroid::checkPermission(permissionName);
+        if(result == QtAndroid::PermissionResult::Denied){
+            //showMessage("Permission has not given before!, Requesting now");
+            auto resultHash = QtAndroid::requestPermissionsSync(QStringList({permissionName}));
+            if(resultHash[permissionName] == QtAndroid::PermissionResult::Denied){
+                showMessage("Permission denied to "+permissionName);
+                int ret = permissionDenied;
+            } else {
+                showMessage("Permission granted to "+permissionName);
+                ret = granted;
+            }
+        } else {
+            ret = alreadyGranted;
+        }
+        return ret;
+#endif
+       return -1;
     }
 
 };
