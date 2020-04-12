@@ -1,6 +1,7 @@
 
 QT       += core gui printsupport opengl
 android: QT += androidextras
+windows: RC_ICONS += "images/analyzing_icon.ico"
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 
@@ -48,12 +49,14 @@ RESOURCES += \
 DISTFILES += \
     android/AndroidManifest.xml \
     android/build.gradle \
-    android/res/values/libs.xml \
-    images/timer.png
+    android/gradle/wrapper/gradle-wrapper.jar \
+    android/gradle/wrapper/gradle-wrapper.properties \
+    android/gradlew \
+    android/gradlew.bat \
+    android/res/values/libs.xml
 
-contains(ANDROID_TARGET_ARCH,armeabi-v7a) {
-    ANDROID_PACKAGE_SOURCE_DIR = \
-        $$PWD/android
-} else {
-    RC_ICONS += "images/analyzing_icon.ico"
-}
+ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
+
+
+
+
